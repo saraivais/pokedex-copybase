@@ -14,3 +14,21 @@
     </ul>
   </div>
 </template>
+
+<script>
+  export default { 
+    props: {
+      pokemonObject: {
+        name: String,
+        sprites: {
+          front_default: String,
+        },
+        stats: Array,
+        weight: Number,
+        height: Number,
+        types: Array,
+      }
+    },
+  }
+</script>
+
