@@ -69,7 +69,7 @@ git clone git@github.com:saraivais/pokedex-copybase.git
 3. Acesse o diretório do projeto e instale suas dependências:
 ```
 cd pokedex-copybase
-npm eu
+npm i
 ```
 
 4. Por fim, use o comando npm run dev e acesse o projeto via navegador
