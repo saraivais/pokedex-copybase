@@ -121,3 +121,71 @@ import FooterComponent from './components/FooterComponent.vue';
 }
 </script>
 
+<style>
+
+.pokedex-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.display-area {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 40px;
+  width: 100vw;
+}
+
+.search-area {
+  align-items: center;
+  background-color: rgba(39, 100, 180, 0.5);
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.search-input {
+  border: none;
+  border-radius: 5px;
+  font-family: 'TheGoodMonolith', sans-serif;
+  font-size: 1.2em;
+  margin: 5px;
+  padding: 8px;
+  width: 80%;
+}
+
+.search-btn {
+  background-color: rgb(221, 3, 14);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-family: 'TheGoodMonolith', sans-serif;
+  font-size: 1.5em;
+  font-weight: 600;
+  margin: 5px;
+  padding: 5px;
+  text-transform: uppercase;
+  width: 80%;
+}
+
+@media (min-width: 500px) {
+  .search-area {
+    width: 60vw;
+  }
+}
+
+@media (min-width: 700px) {
+  .search-area {
+    padding: 20px;
+    width: 50vw;
+  }
+
+  .display-area {
+    flex-direction: row;
+  }
+}
+</style>
