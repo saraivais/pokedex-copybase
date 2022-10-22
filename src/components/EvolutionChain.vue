@@ -10,3 +10,12 @@
   </div>
 </template>
 
+<script>
+  export default {
+    props: {
+        chain: Array,
+        changeFunction: Function,
+    },
+}
+</script>
+
