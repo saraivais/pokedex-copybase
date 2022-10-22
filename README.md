@@ -14,21 +14,31 @@ Vue.js was used to create single-file-components containing HTML5 code, scrips u
 
 ### Installation
 1. Create a directory using the mkdir command:
+```
 mkdir saraivais-projects
+```
 
 2. Access the directory using the cd command and clone the repository:
+```
 cd saraivais-projects
-git clone 
+git clone git@github.com:saraivais/pokedex-copybase.git
+```
 
 3. Access the project directory and install it's dependencies:
-cd 
+```
+cd pokedex-copybase
 npm i
+```
 
 4. Lastly, use the npm run dev command and acces the project via browser
-
+```
+npm run dev
+```
 
 5. Or, access the deployed project using the following url:
-
+```
+https://pokedex-copybase.vercel.app/
+```
 
 </details>
 
@@ -46,18 +56,30 @@ Vue.js foi usado para criar componentes de arquivo único contendo código HTML5
 
 ### Instalação
 1. Crie um diretório usando o comando mkdir:
+```
 mkdir saraivais-projetos
+```
 
 2. Acesse o diretório usando o comando cd e clone o repositório:
+```
 cd saraivais-projetos
-git clone
+git clone git@github.com:saraivais/pokedex-copybase.git
+```
 
 3. Acesse o diretório do projeto e instale suas dependências:
-cd
+```
+cd pokedex-copybase
 npm eu
+```
 
 4. Por fim, use o comando npm run dev e acesse o projeto via navegador
-
+```
+npm run dev
+```
 
 5. Ou acesse o projeto implantado usando o seguinte URL:
+```
+https://pokedex-copybase.vercel.app/
+```
+
 </details>
